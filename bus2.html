@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #111;
+        height: auto;
+        width: 100vw;
+        padding-top: 40px;
+        color: #fff;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: Helvetica, sans-serif;
+        letter-spacing: 0.1em;
+    }
+
+    .blink {
+        animation: blinker 1.5s linear infinite;
+        color: red;
+        font-family: sans-serif;
+    }
+
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+
+    h4 {
+        color: red;
+
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">QR INFO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">BUS NO:1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bus2.html">BUS NO:2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bus3.html">BUS NO:3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="building1.html">BUILDING NO:1</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container">
+        <h3>NEYYATTINGARA-GURUVAYOOR</h3>
+        <h4>
+            <marquee class="blink" behavior="alternate" direction="">SUPER FAST</marquee>
+        </h4>
+        <br>
+        <p>VIA &#8594;Neyyattingara&#8594; Thiruvananthapuram &#8594; Kaniyapuram &#8594;Attingal
+            &#8594;Chathannoor &#8594; Kottiyam &#8594; Kollam &#8594; Karunagapilly &#8594;
+        Oachira &#8594; Kayamkulam &#8594; Harippad &#8594; Ambalapuzha &#8594; Alappuzha &#8594;
+    Cherthala &#8594;Vytila Hub &#8594; Aluva &#8594; Ankamaly &#8594;Chalakudy &#8594;Puthukad &#8594;
+Thrissur &#8594;Kunnamkulam &#8594; Guruvayoor</p>
+
+    </div>
+    <span class="border border-white">
+        <img src="ROUTE2.jpg" class="img-fluid" alt="Responsive Image" height="50" /></span>
+    <br><br>
+    <div class="container">
+
+        <div class="card-columns">
+            <div class="card bg-primary">
+                <div class="card-body text-center">
+                    <p class="card-text"><b>
+                            <h5>Total Distance</h5>
+                        </b>
+                        <br>
+                    <p> 332.65 km</p>
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-warning">
+                <div class="card-body text-center">
+                    <p class="card-text"><b>
+                            <h5>Time</h5>
+                        </b>
+                        <br>Time: 8 hours , 41 minutes
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-success">
+                <div class="card-body text-center">
+                    <p class="card-text"><b>
+                            <h5>Ticket Charge</h5>
+                        </b>
+                        <br>
+                        Rs.342.00
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            <div class="container">
+                <h3><u>ROUTE DETAILS</u></h3>
+                <p>Expected Time Including Halt</p>
+                <br>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>STOP</th>
+                            <th>TIME</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>NEYYATTINGARA</td>
+                            <td>05:30 AM</td>
+
+                        </tr>
+                        <tr>
+                            <td>THIRUVANANTHAPURAM</td>
+                            <td>05:45 AM</td>
+
+                        </tr>
+                        <tr>
+                            <td>KANIYAPURAM</td>
+                            <td>06:25 AM</td>
+
+                        </tr>
+                        <tr>
+                            <td>ATTINGAL</td>
+                            <td>06:45 AM</td>
+
+                        </tr>
+                        <tr>
+                            <td>CHATHANNOOR</td>
+                            <td>07:15 AM</td>
+
+                        </tr>
+                        <tr>
+                            <td>KOTTIYAM</td>
+                            <td>07:20 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>KOLLAM</td>
+                            <td>07:40 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>KARUNAGAPILLY</td>
+                            <td>08:20 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>OACHIRA</td>
+                            <td>08:35 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>KAYAMKULAM</td>
+                            <td>08:40 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>HARIPPAD</td>
+                            <td>09:00 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>AMBALAPUZHA</td>
+                            <td>09:20 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>ALAPPUZHA</td>
+                            <td>09:45 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>CHERTHALA</td>
+                            <td>10:15 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>VYTILLA HUB</td>
+                            <td>11:10 AM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>ALUVA</td>
+                            <td>12:10 PM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>ANKAMALY</td>
+                            <td>12:30 PM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>CHALAKUDY</td>
+                            <td>12:50 PM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>PUTHUKAD</td>
+                            <td>01:10 PM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>THRISSUR</td>
+                            <td>01:30 PM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>KUNNAMKULAM</td>
+                            <td>02:00 PM</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>GURUVAYOOR</td>
+                            <td>02:15 PM</td>
+                        
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
